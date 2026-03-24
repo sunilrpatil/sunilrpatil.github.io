@@ -1,0 +1,136 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #222;
+}
+
+/* Header Styles */
+header {
+  background: #0b3d91;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 10px 0 0 0;
+  font-size: 1.1em;
+}
+
+/* Navigation Styles */
+nav {
+  background: #f4f4f4;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0b3d91;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #054a7d;
+  text-decoration: underline;
+}
+
+nav a:focus {
+  outline: 2px solid #0b3d91;
+  outline-offset: 2px;
+}
+
+/* Section Styles */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #0b3d91;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+/* Highlight Box */
+.highlight {
+  background: #f0f6ff;
+  padding: 15px;
+  border-left: 4px solid #0b3d91;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* List Styles */
+ul, ol {
+  line-height: 1.8;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Link Styles */
+a {
+  color: #0b3d91;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid #0b3d91;
+  outline-offset: 2px;
+}
+
+/* Footer Styles */
+footer {
+  background: #0b3d91;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    padding: 30px 15px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  nav {
+    padding: 10px 0;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+    padding: 8px;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+}
